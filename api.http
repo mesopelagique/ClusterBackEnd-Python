@@ -1,0 +1,11 @@
+### Get cluster list
+GET http://localhost:8080/cluster_list
+
+### get one cluster by id
+GET http://localhost:8080/cluster_get?cluster_id=0418-130557-jays603
+
+### Start cluster
+GET http://localhost:8080/cluster_start?cluster_id=0418-130557-jays603
+
+### Stop cluster
+GET http://localhost:8080/cluster_stop?cluster_id=0418-130557-jays603

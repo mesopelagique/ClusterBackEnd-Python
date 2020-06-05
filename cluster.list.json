@@ -1,0 +1,1401 @@
+{
+    "clusters": [
+        {
+            "cluster_id": "0418-130557-jays603",
+            "driver": {
+                "public_dns": "51.144.74.31",
+                "node_id": "64fb6e166ab84bdca29d342aba01e5ac",
+                "node_aws_attributes": {
+                    "is_spot": false
+                },
+                "instance_id": "63e62ef594af4af09213e4e86b8ecd72",
+                "start_timestamp": 1557927995827,
+                "host_private_ip": "10.139.0.21",
+                "private_ip": "10.139.64.21"
+            },
+            "executors": [
+                {
+                    "public_dns": "51.144.73.185",
+                    "node_id": "d7eb3793246241ed89520660102ed407",
+                    "node_aws_attributes": {
+                        "is_spot": false
+                    },
+                    "instance_id": "0ad31080a3a64c6d85eabb236672b454",
+                    "start_timestamp": 1557927995879,
+                    "host_private_ip": "10.139.0.23",
+                    "private_ip": "10.139.64.23"
+                },
+                {
+                    "public_dns": "51.144.73.92",
+                    "node_id": "c72f3506234b40eb9a03ab1c3178e0fe",
+                    "node_aws_attributes": {
+                        "is_spot": false
+                    },
+                    "instance_id": "b48b46da2d2b460d8d82d2d64ee95fae",
+                    "start_timestamp": 1557927995849,
+                    "host_private_ip": "10.139.0.22",
+                    "private_ip": "10.139.64.22"
+                },
+                {
+                    "public_dns": "51.144.126.206",
+                    "node_id": "1ca101e0eca845c7ab35fc8e24811aa1",
+                    "node_aws_attributes": {
+                        "is_spot": false
+                    },
+                    "instance_id": "0f6840614baf41efa861973355849cf9",
+                    "start_timestamp": 1557927995943,
+                    "host_private_ip": "10.139.0.20",
+                    "private_ip": "10.139.64.20"
+                },
+                {
+                    "public_dns": "51.144.75.214",
+                    "node_id": "d3b5fb4a96f04c9cbb6136219aa527bd",
+                    "node_aws_attributes": {
+                        "is_spot": false
+                    },
+                    "instance_id": "3b8a3e2023db4e7691d79a942a45cae6",
+                    "start_timestamp": 1557927995904,
+                    "host_private_ip": "10.139.0.24",
+                    "private_ip": "10.139.64.24"
+                }
+            ],
+            "spark_context_id": 4605419510474484575,
+            "jdbc_port": 10000,
+            "cluster_name": "persona-cluster",
+            "spark_version": "5.3.x-cpu-ml-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS14_v2",
+            "driver_node_type_id": "Standard_DS14_v2",
+            "custom_tags": {
+                "ProjectId": "Persona",
+                "RunId": "1"
+            },
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 30,
+            "enable_elastic_disk": true,
+            "cluster_source": "UI",
+            "state": "RUNNING",
+            "state_message": "",
+            "start_time": 1557927780234,
+            "terminated_time": 0,
+            "last_state_loss_time": 1557928154287,
+            "last_activity_time": 1557928869831,
+            "num_workers": 4,
+            "cluster_memory_mb": 573440,
+            "cluster_cores": 80,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "cbismuth@4d.fr",
+                "ClusterName": "persona-cluster",
+                "ClusterId": "0418-130557-jays603"
+            },
+            "creator_user_name": "cbismuth@4d.fr",
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0412-150358-pair82",
+            "driver": {
+                "public_dns": "52.166.150.96",
+                "node_id": "afadc59cac6a46f3a0cf9abcccfc7d46",
+                "node_aws_attributes": {
+                    "is_spot": false
+                },
+                "instance_id": "bb44cfcd94b346a99b9f3f43574029d8",
+                "start_timestamp": 1557903194562,
+                "host_private_ip": "10.139.0.32",
+                "private_ip": "10.139.64.32"
+            },
+            "executors": [
+                {
+                    "public_dns": "52.166.150.193",
+                    "node_id": "a329b997dec9409a94681c4e5d04eb62",
+                    "node_aws_attributes": {
+                        "is_spot": false
+                    },
+                    "instance_id": "43675c94366b41d7a43f5d2fe223e7bd",
+                    "start_timestamp": 1557903194610,
+                    "host_private_ip": "10.139.0.34",
+                    "private_ip": "10.139.64.34"
+                },
+                {
+                    "public_dns": "52.166.150.135",
+                    "node_id": "3d814e1e588546cb8c0cc3c09c45b514",
+                    "node_aws_attributes": {
+                        "is_spot": false
+                    },
+                    "instance_id": "2d2376a28af84628ad9d70dee0f57801",
+                    "start_timestamp": 1557903194639,
+                    "host_private_ip": "10.139.0.31",
+                    "private_ip": "10.139.64.31"
+                },
+                {
+                    "public_dns": "52.166.150.218",
+                    "node_id": "3adcb7d505514cba897e77200bee2660",
+                    "node_aws_attributes": {
+                        "is_spot": false
+                    },
+                    "instance_id": "ff941d4c30ad4f84a2d217c7c3657dfe",
+                    "start_timestamp": 1557903194583,
+                    "host_private_ip": "10.139.0.33",
+                    "private_ip": "10.139.64.33"
+                }
+            ],
+            "spark_context_id": 4853549772898628255,
+            "jdbc_port": 10000,
+            "cluster_name": "cluster-medium-1",
+            "spark_version": "5.3.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS4_v2",
+            "driver_node_type_id": "Standard_DS4_v2",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 40,
+            "enable_elastic_disk": true,
+            "cluster_source": "UI",
+            "state": "RUNNING",
+            "state_message": "",
+            "start_time": 1557903007524,
+            "terminated_time": 0,
+            "last_state_loss_time": 1557903293058,
+            "last_activity_time": 1557928869685,
+            "num_workers": 3,
+            "cluster_memory_mb": 114688,
+            "cluster_cores": 32,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "jlaffont@4d.fr",
+                "ClusterName": "cluster-medium-1",
+                "ClusterId": "0412-150358-pair82"
+            },
+            "creator_user_name": "jlaffont@4d.fr",
+            "pinned_by_user_name": "jlaffont@4d.fr",
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-110027-taco977",
+            "spark_context_id": 1046312926100671271,
+            "cluster_name": "job-7134-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557918027571,
+            "terminated_time": 1557918622118,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557918609017,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7134-run-1",
+                "ClusterId": "0515-110027-taco977"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-131119-rave919",
+            "spark_context_id": 3343979086066012096,
+            "cluster_name": "job-7120-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557839479639,
+            "terminated_time": 1557839996918,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557839978075,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7120-run-1",
+                "ClusterId": "0514-131119-rave919"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-080005-eves648",
+            "spark_context_id": 6714184437277955825,
+            "cluster_name": "job-267-run-297",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS3_v2",
+            "driver_node_type_id": "Standard_DS3_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557907205994,
+            "terminated_time": 1557908157134,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557908138020,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-267-run-297",
+                "ClusterId": "0515-080005-eves648"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-033028-comfy700",
+            "spark_context_id": 7430090334005995974,
+            "cluster_name": "job-7121-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557891029077,
+            "terminated_time": 1557891665818,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557891638539,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7121-run-1",
+                "ClusterId": "0515-033028-comfy700"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-110011-fell919",
+            "spark_context_id": 3973524261323873220,
+            "cluster_name": "job-7117-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557831613929,
+            "terminated_time": 1557832152472,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557832147785,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7117-run-1",
+                "ClusterId": "0514-110011-fell919"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-060014-veal712",
+            "spark_context_id": 553916679301029174,
+            "cluster_name": "job-2460-run-186",
+            "spark_version": "5.2.x-cpu-ml-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS12_v2",
+            "driver_node_type_id": "Standard_DS12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557900014543,
+            "terminated_time": 1557912861085,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557912848900,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-2460-run-186",
+                "ClusterId": "0515-060014-veal712"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0412-145332-get849",
+            "spark_context_id": 1338031018055090706,
+            "cluster_name": "cluster-small-1",
+            "spark_version": "5.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_F4s",
+            "driver_node_type_id": "Standard_F4s",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 20,
+            "enable_elastic_disk": true,
+            "cluster_source": "UI",
+            "state": "TERMINATED",
+            "state_message": "Inactive cluster terminated (inactive for 20 minutes).",
+            "start_time": 1555080812384,
+            "terminated_time": 1557755782934,
+            "last_state_loss_time": 1557686206078,
+            "num_workers": 3,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "jlaffont@4d.fr",
+                "ClusterName": "cluster-small-1",
+                "ClusterId": "0412-145332-get849"
+            },
+            "creator_user_name": "jlaffont@4d.fr",
+            "termination_reason": {
+                "code": "INACTIVITY",
+                "parameters": {
+                    "inactivity_duration_min": "20"
+                }
+            },
+            "pinned_by_user_name": "jlaffont@4d.fr",
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0412-150316-hank79",
+            "spark_context_id": 2870693647447203934,
+            "cluster_name": "cluster-medium-2",
+            "spark_version": "5.4.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS4_v2",
+            "driver_node_type_id": "Standard_DS4_v2",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 20,
+            "enable_elastic_disk": true,
+            "cluster_source": "UI",
+            "state": "TERMINATED",
+            "state_message": "Termination requested by rbensamoun@4d.fr",
+            "start_time": 1557909732697,
+            "terminated_time": 1557913768963,
+            "last_state_loss_time": 1557910500307,
+            "last_activity_time": 1557913594380,
+            "num_workers": 3,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "jlaffont@4d.fr",
+                "ClusterName": "cluster-medium-2",
+                "ClusterId": "0412-150316-hank79"
+            },
+            "creator_user_name": "jlaffont@4d.fr",
+            "termination_reason": {
+                "code": "USER_REQUEST",
+                "parameters": {
+                    "username": "rbensamoun@4d.fr"
+                }
+            },
+            "pinned_by_user_name": "jlaffont@4d.fr",
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-090006-top86",
+            "spark_context_id": 7104660664839265304,
+            "cluster_name": "job-26-run-319",
+            "spark_version": "5.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS3_v2",
+            "driver_node_type_id": "Standard_DS3_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557910806876,
+            "terminated_time": 1557911564237,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557911558006,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "upiqueras@4d.fr",
+                "ClusterName": "job-26-run-319",
+                "ClusterId": "0515-090006-top86"
+            },
+            "creator_user_name": "upiqueras@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0412-145423-trump853",
+            "spark_context_id": 8239754806630453773,
+            "cluster_name": "cluster-small-2",
+            "spark_version": "5.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_F4s",
+            "driver_node_type_id": "Standard_F4s",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 120,
+            "enable_elastic_disk": true,
+            "cluster_source": "UI",
+            "state": "TERMINATED",
+            "state_message": "Inactive cluster terminated (inactive for 120 minutes).",
+            "start_time": 1557821537097,
+            "terminated_time": 1557902709300,
+            "last_state_loss_time": 1557821825810,
+            "last_activity_time": 1557895481854,
+            "num_workers": 3,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "jlaffont@4d.fr",
+                "ClusterName": "cluster-small-2",
+                "ClusterId": "0412-145423-trump853"
+            },
+            "creator_user_name": "jlaffont@4d.fr",
+            "termination_reason": {
+                "code": "INACTIVITY",
+                "parameters": {
+                    "inactivity_duration_min": "120"
+                }
+            },
+            "pinned_by_user_name": "jlaffont@4d.fr",
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-050117-err299",
+            "spark_context_id": 4607147468668743441,
+            "cluster_name": "job-7126-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557896478202,
+            "terminated_time": 1557897211635,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557897188083,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7126-run-1",
+                "ClusterId": "0515-050117-err299"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-131112-yack981",
+            "spark_context_id": 9032382617946401423,
+            "cluster_name": "job-7137-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557925872471,
+            "terminated_time": 1557926418356,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557926409034,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7137-run-1",
+                "ClusterId": "0515-131112-yack981"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-050111-eras23",
+            "spark_context_id": 1206440092775916891,
+            "cluster_name": "job-7111-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557810071627,
+            "terminated_time": 1557810863248,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557810847552,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7111-run-1",
+                "ClusterId": "0514-050111-eras23"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-100005-you522",
+            "spark_context_id": 7271493081808212680,
+            "cluster_name": "job-10-run-408",
+            "spark_version": "5.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557914405397,
+            "terminated_time": 1557915129958,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557915098970,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-10-run-408",
+                "ClusterId": "0515-100005-you522"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-133004-nib59",
+            "spark_context_id": 4795837940226682192,
+            "cluster_name": "job-14-run-388",
+            "spark_version": "5.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS3_v2",
+            "driver_node_type_id": "Standard_DS3_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557840605067,
+            "terminated_time": 1557840997393,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557840968426,
+            "num_workers": 4,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-14-run-388",
+                "ClusterId": "0514-133004-nib59"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-074238-hims311",
+            "spark_context_id": 1526136089538746588,
+            "cluster_name": "job-7112-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557819759211,
+            "terminated_time": 1557821407555,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557821377749,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7112-run-1",
+                "ClusterId": "0514-074238-hims311"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-080005-luaus437",
+            "spark_context_id": 1479171566690427502,
+            "cluster_name": "job-267-run-296",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS3_v2",
+            "driver_node_type_id": "Standard_DS3_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557820805787,
+            "terminated_time": 1557821566284,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557821558966,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-267-run-296",
+                "ClusterId": "0514-080005-luaus437"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-070019-vizor238",
+            "spark_context_id": 4988415907417651628,
+            "cluster_name": "job-2654-run-201",
+            "spark_version": "5.2.x-cpu-ml-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true",
+                "spark.driver.maxResultSize": "30g",
+                "spark.sql.sources.partitionOverwriteMode": "dynamic",
+                "spark.default.parallelism": "256"
+            },
+            "node_type_id": "Standard_DS12_v2",
+            "driver_node_type_id": "Standard_DS12_v2",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557903620161,
+            "terminated_time": 1557905727266,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557905707867,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-2654-run-201",
+                "ClusterId": "0515-070019-vizor238"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-064037-opt53",
+            "spark_context_id": 7129443982471949745,
+            "cluster_name": "job-7127-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557902437505,
+            "terminated_time": 1557904050153,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557904027507,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7127-run-1",
+                "ClusterId": "0515-064037-opt53"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-100018-pock428",
+            "spark_context_id": 3051003831672960750,
+            "cluster_name": "job-10-run-407",
+            "spark_version": "5.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557828018295,
+            "terminated_time": 1557828834071,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557828817897,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-10-run-407",
+                "ClusterId": "0514-100018-pock428"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-060014-peps713",
+            "spark_context_id": 3770239091396854786,
+            "cluster_name": "job-2458-run-200",
+            "spark_version": "5.3.x-cpu-ml-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS12_v2",
+            "driver_node_type_id": "Standard_DS12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557900014547,
+            "terminated_time": 1557904642783,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557904627896,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-2458-run-200",
+                "ClusterId": "0515-060014-peps713"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-130026-windy818",
+            "spark_context_id": 5568843703132541542,
+            "cluster_name": "job-29-run-273",
+            "spark_version": "5.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D13_v2",
+            "driver_node_type_id": "Standard_D13_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557838826898,
+            "terminated_time": 1557841763990,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557841747043,
+            "num_workers": 10,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-29-run-273",
+                "ClusterId": "0514-130026-windy818"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-130006-lice870",
+            "spark_context_id": 1470790694672901210,
+            "cluster_name": "job-29-run-274",
+            "spark_version": "5.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D13_v2",
+            "driver_node_type_id": "Standard_D13_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557925206931,
+            "terminated_time": 1557928381268,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557928357548,
+            "num_workers": 10,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-29-run-274",
+                "ClusterId": "0515-130006-lice870"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-090008-thees880",
+            "spark_context_id": 3800034715946256580,
+            "cluster_name": "job-1492-run-168",
+            "spark_version": "5.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557824409093,
+            "terminated_time": 1557826381557,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557826358941,
+            "num_workers": 4,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-1492-run-168",
+                "ClusterId": "0514-090008-thees880"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-043103-trike107",
+            "spark_context_id": 8426496941441823836,
+            "cluster_name": "job-7123-run-1",
+            "spark_version": "4.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557894664068,
+            "terminated_time": 1557895458501,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557895446826,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-7123-run-1",
+                "ClusterId": "0515-043103-trike107"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-133005-cell102",
+            "spark_context_id": 1711036037650915916,
+            "cluster_name": "job-14-run-389",
+            "spark_version": "5.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS3_v2",
+            "driver_node_type_id": "Standard_DS3_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557927005764,
+            "terminated_time": 1557927412951,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557927397500,
+            "num_workers": 4,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-14-run-389",
+                "ClusterId": "0515-133005-cell102"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-060008-miser384",
+            "spark_context_id": 2202970454371079407,
+            "cluster_name": "job-2460-run-185",
+            "spark_version": "5.2.x-cpu-ml-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS12_v2",
+            "driver_node_type_id": "Standard_DS12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557813609086,
+            "terminated_time": 1557825822982,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557825817538,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-2460-run-185",
+                "ClusterId": "0514-060008-miser384"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0403-085429-tic878",
+            "spark_context_id": 3987853828539431413,
+            "cluster_name": "cluster-prod",
+            "spark_version": "5.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true",
+                "spark.driver.memory": "10g",
+                "spark.executor.instances": "16",
+                "spark.yarn.maxAppAttempts": "1",
+                "spark.executor.memory": "48g",
+                "spark.executor.cores": "7",
+                "spark.yarn.executor.memoryOverhead": "10000",
+                "spark.yarn.driver.memoryOverhead": "10000"
+            },
+            "node_type_id": "Standard_D14_v2",
+            "driver_node_type_id": "Standard_D13_v2",
+            "autotermination_minutes": 10,
+            "enable_elastic_disk": true,
+            "cluster_source": "API",
+            "state": "TERMINATED",
+            "state_message": "Inactive cluster terminated (inactive for 10 minutes).",
+            "start_time": 1557921673895,
+            "terminated_time": 1557922965919,
+            "last_state_loss_time": 1557918445042,
+            "last_activity_time": 1557922339672,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "cluster-prod",
+                "ClusterId": "0403-085429-tic878"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "INACTIVITY",
+                "parameters": {
+                    "inactivity_duration_min": "10"
+                }
+            },
+            "pinned_by_user_name": "jlaffont@4d.fr",
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-090031-togae125",
+            "spark_context_id": 3771515357368471870,
+            "cluster_name": "job-1492-run-169",
+            "spark_version": "5.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D12_v2",
+            "driver_node_type_id": "Standard_D12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557910831436,
+            "terminated_time": 1557912736908,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557912728242,
+            "num_workers": 4,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "job-1492-run-169",
+                "ClusterId": "0515-090031-togae125"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-060008-offed383",
+            "spark_context_id": 7353856197174564595,
+            "cluster_name": "job-2458-run-199",
+            "spark_version": "5.3.x-cpu-ml-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS12_v2",
+            "driver_node_type_id": "Standard_DS12_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557813609086,
+            "terminated_time": 1557817877219,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557817868926,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-2458-run-199",
+                "ClusterId": "0514-060008-offed383"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-090009-edits882",
+            "spark_context_id": 8153801757778803001,
+            "cluster_name": "job-26-run-318",
+            "spark_version": "5.1.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS3_v2",
+            "driver_node_type_id": "Standard_DS3_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557824409269,
+            "terminated_time": 1557825238841,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557825217644,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "upiqueras@4d.fr",
+                "ClusterName": "job-26-run-318",
+                "ClusterId": "0514-090009-edits882"
+            },
+            "creator_user_name": "upiqueras@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-050013-rodeo269",
+            "spark_context_id": 3050535297390970152,
+            "cluster_name": "job-6252-run-5",
+            "spark_version": "5.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS4_v2",
+            "driver_node_type_id": "Standard_DS4_v2",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557896413970,
+            "terminated_time": 1557897654254,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557897637002,
+            "num_workers": 4,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-6252-run-5",
+                "ClusterId": "0515-050013-rodeo269"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0514-070011-lit935",
+            "spark_context_id": 1591073074401171852,
+            "cluster_name": "job-2654-run-200",
+            "spark_version": "5.2.x-cpu-ml-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true",
+                "spark.driver.maxResultSize": "30g",
+                "spark.sql.sources.partitionOverwriteMode": "dynamic",
+                "spark.default.parallelism": "256"
+            },
+            "node_type_id": "Standard_DS12_v2",
+            "driver_node_type_id": "Standard_DS12_v2",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557817211713,
+            "terminated_time": 1557818369064,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557818347956,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "fvaladier@4d.fr",
+                "ClusterName": "job-2654-run-200",
+                "ClusterId": "0514-070011-lit935"
+            },
+            "creator_user_name": "fvaladier@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0416-144605-lifer799",
+            "spark_context_id": 3729183759777600334,
+            "cluster_name": "cluster-prod",
+            "spark_version": "5.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true",
+                "spark.driver.memory": "10g",
+                "spark.executor.instances": "16",
+                "spark.yarn.maxAppAttempts": "1",
+                "spark.executor.memory": "48g",
+                "spark.executor.cores": "7",
+                "spark.yarn.executor.memoryOverhead": "10000",
+                "spark.yarn.driver.memoryOverhead": "10000"
+            },
+            "node_type_id": "Standard_D14_v2",
+            "driver_node_type_id": "Standard_D13_v2",
+            "autotermination_minutes": 10,
+            "enable_elastic_disk": true,
+            "cluster_source": "API",
+            "state": "TERMINATED",
+            "state_message": "Inactive cluster terminated (inactive for 10 minutes).",
+            "start_time": 1555425965529,
+            "terminated_time": 1555428779141,
+            "last_state_loss_time": 0,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "smanganneau@4d.fr",
+                "ClusterName": "cluster-prod",
+                "ClusterId": "0416-144605-lifer799"
+            },
+            "creator_user_name": "smanganneau@4d.fr",
+            "termination_reason": {
+                "code": "INACTIVITY",
+                "parameters": {
+                    "inactivity_duration_min": "10"
+                }
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0515-023006-bosun318",
+            "spark_context_id": 673354074769494918,
+            "cluster_name": "job-582-run-269",
+            "spark_version": "4.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_DS4_v2",
+            "driver_node_type_id": "Standard_DS4_v2",
+            "autotermination_minutes": 0,
+            "enable_elastic_disk": true,
+            "cluster_source": "JOB",
+            "state": "TERMINATED",
+            "state_message": "",
+            "start_time": 1557887406338,
+            "terminated_time": 1557888011117,
+            "last_state_loss_time": 0,
+            "last_activity_time": 1557888006244,
+            "num_workers": 4,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "mdeceuninck@4d.fr",
+                "ClusterName": "job-582-run-269",
+                "ClusterId": "0515-023006-bosun318"
+            },
+            "creator_user_name": "mdeceuninck@4d.fr",
+            "termination_reason": {
+                "code": "JOB_FINISHED"
+            },
+            "init_scripts_safe_mode": false
+        },
+        {
+            "cluster_id": "0412-151303-use127",
+            "spark_context_id": 7032961071987359811,
+            "cluster_name": "cluster-big-1",
+            "spark_version": "5.2.x-scala2.11",
+            "spark_conf": {
+                "spark.databricks.delta.preview.enabled": "true"
+            },
+            "node_type_id": "Standard_D32s_v3",
+            "driver_node_type_id": "Standard_D32s_v3",
+            "spark_env_vars": {
+                "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+            },
+            "autotermination_minutes": 120,
+            "enable_elastic_disk": true,
+            "cluster_source": "UI",
+            "state": "TERMINATED",
+            "state_message": "Termination requested by mdeceuninck@4d.fr",
+            "start_time": 1555081983411,
+            "terminated_time": 1557400352196,
+            "last_state_loss_time": 1557400342747,
+            "num_workers": 8,
+            "default_tags": {
+                "Vendor": "Databricks",
+                "Creator": "jlaffont@4d.fr",
+                "ClusterName": "cluster-big-1",
+                "ClusterId": "0412-151303-use127"
+            },
+            "creator_user_name": "jlaffont@4d.fr",
+            "termination_reason": {
+                "code": "USER_REQUEST",
+                "parameters": {
+                    "username": "mdeceuninck@4d.fr"
+                }
+            },
+            "pinned_by_user_name": "jlaffont@4d.fr",
+            "init_scripts_safe_mode": false
+        }
+    ]
+}
