@@ -1,0 +1,9 @@
+{
+  "name": "cluster-api",
+  "keywords": [
+    "python",
+    "api"
+  ],
+  "repository": "https://github.com/mesopelagique/ClusterBackEnd-Python",
+  "stack": "container"
+}
