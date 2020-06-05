@@ -1,10 +1,10 @@
 # cluster-api
 
-simple server to expose pseudo rest api described by api.http file
+simple server to expose pseudo rest api described by [api.http](api.http) file
 
-api inspired from databricks api
+api inspired from [databricks api](https://docs.databricks.com/dev-tools/api/index.html)
 
-data when starting are provided by cluster.list.json
+data are provided by [cluster.list.json](cluster.list.json)
 
 ## launch server manually
 
