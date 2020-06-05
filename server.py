@@ -76,4 +76,4 @@ def web_cluster_stop():
         return "no cluster_id defined"
 
 if __name__ == "__main__":  
-    app.run(host='0.0.0.0',debug=True,port=8080)
+    app.run(host='0.0.0.0',debug=True,port=os.getenv("PORT", 8080))
