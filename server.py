@@ -15,7 +15,6 @@ with open('cluster.list.json') as json_data:
 
 @app.route("/")
 def hello():  
-    data = "<b>Hello, World</b>a"
     return "<b>Cluster API</b>"
 
 @app.route("/cluster_list", methods=['GET'])
